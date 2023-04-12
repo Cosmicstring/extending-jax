@@ -369,7 +369,7 @@ and GPU translation):
 # src/kepler_jax/kepler_jax.py
 import numpy as np
 from jax.interpreters import mlir
-from jaxlib.mhlo_helpers import custom_call
+from jaxlib.hlo_helpers import custom_call
 
 def _kepler_lowering(ctx, mean_anom, ecc):
 
